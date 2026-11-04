@@ -39,9 +39,15 @@ public class Datos {
         ));
 
         ejercicios.add(new EjercicioEspalda(
-                "Jalón al pecho",
-                "Ejercicio para trabajar la espalda.",
-                "Jalar la barra hacia el pecho y regresar lentamente."
+        "Jalón al pecho",
+        "Ejercicio para trabajar la espalda.",
+        "Jalar la barra hacia el pecho y regresar lentamente."
+        ));
+
+        ejercicios.add(new EjercicioPierna(
+        "Elevación de talones",
+        "Ejercicio para fortalecer las piernas.",
+        "Subir lentamente sobre las puntas de los pies y volver a bajar."
         ));
 
         return ejercicios;
